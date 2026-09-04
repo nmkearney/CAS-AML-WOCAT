@@ -1,0 +1,8 @@
+# The full raw API dump (~11 MB) — regenerate by running the notebook with a token.
+datasets/wocat/technologies_raw.json.gz
+
+# Everything else under datasets/wocat/ is small and worth committing: with those files
+# present the notebook runs in Colab with no token at all.
+
+.ipynb_checkpoints/
+__pycache__/
