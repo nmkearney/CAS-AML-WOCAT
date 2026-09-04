@@ -1,8 +1,8 @@
-### Resources
+# Resources
 
 WOCAT Questionnaire on SLM Technologies: https://wocat.net/documents/447/QT_English_2019_CClicence.docx
 
-### Module 1: Unsupervised machine learning
+# Module 1: Unsupervised machine learning
 
 ## Research questions
 
@@ -12,14 +12,14 @@ WOCAT Questionnaire on SLM Technologies: https://wocat.net/documents/447/QT_Engl
 
 (Sections of the WOCAT Questionnaire on SLM Technologies are in parentheses)
 
-# Essential input data
+### Essential input data
 
 - Latitude and longitude (2.5)
 - Altitudinal zone (5.2): 9 levels
 - Agro-climatic zone (5.1): Humid, sub-humid, semi-arid, arid
 - SLM group to which the Technology belongs (3.5): 26 categories, and "other"
 
-# Optional input data
+### Optional input data
 
 - Current land use type(s) where the Technology is applied: 8 high-level categories, and "other"
 - Land use before the implementation of this Technology (3.3): 8 high-level categories, and "other"
@@ -36,7 +36,7 @@ WOCAT Questionnaire on SLM Technologies: https://wocat.net/documents/447/QT_Engl
 
 - Some entries specify coordinates for multiple sites. Do we take the midpoint among them?
 
-### Module 2: Supervised machine learning
+# Module 2: Supervised machine learning
 
 ## Research questions
 
@@ -46,7 +46,7 @@ WOCAT Questionnaire on SLM Technologies: https://wocat.net/documents/447/QT_Engl
 
 (Sections of the WOCAT Questionnaire on SLM Technologies are in parentheses)
 
-# Essential input data
+### Essential input data
 
 - SLM group to which the Technology belongs (3.5): 26 categories, and "other"
 - SLM measures comprising the Technology (3.6): Agronomic, vegetative, structural, management, and "other"
@@ -55,7 +55,7 @@ WOCAT Questionnaire on SLM Technologies: https://wocat.net/documents/447/QT_Engl
 - Cost of inputs needed for establishment (4.4): Total cost of establishing the Technology in USD
 - Cost of inputs and recurrent activities needed for maintenance per year (4.6): Total cost of maintaining the Technology in USD
 
-# Optional input data (e.g., as controls)
+### Optional input data (e.g., as controls)
 
 - Main purpose(s) of the Technology (3.1): 9 categories, and "other"
 - Current land use type(s) where the Technology is applied: 8 high-level categories, and "other"
@@ -68,7 +68,7 @@ WOCAT Questionnaire on SLM Technologies: https://wocat.net/documents/447/QT_Engl
 - Compiler (1.2): Control for bias
 - Date of implementation (2.6): Recent (<10 years), 10-50 years, traditional (50+ years)
 
-# Output data
+### Output data
 
 - Biodiversity variables (5.5): Species diversity (5.5), Habitat diversity (5.5)
 - Biodiversity variables (6.1): Vegetation cover, **biomass/above-ground C**, plant diversity, invasive alien species, animal diversity, beneficial species (predators, earthworms, pollinators), harmful species (e.g., mosquitos), habitat diversity, pest/diseases
