@@ -51,9 +51,10 @@ WOCAT Questionnaire on SLM Technologies: https://wocat.net/documents/447/QT_Engl
 - SLM group to which the Technology belongs (3.5): 26 categories, and "other"
 - SLM measures comprising the Technology (3.6): Agronomic, vegetative, structural, management, and "other"
 - Main types of land degradation addressed by the Technology (3.7): Soil erosion by water, soil erosion by wind, chemical soil degradation, physical soil degradation, biological degradation, water degradation
-- Water availability and quality (5.4): Groundwater table, Availability of surface water
-- Cost of inputs needed for establishment (4.4): Total cost of establishing the Technology in USD
-- Cost of inputs and recurrent activities needed for maintenance per year (4.6): Total cost of maintaining the Technology in USD
+- Groundwater table (5.4): On surface, <5m, 5-50m, >50
+- Availability of surface water: Excess, good, medium, poor/none
+- Total cost of establishing the Technology in USD (4.4)
+- Total cost of maintaining the Technology in USD (4.6)
 
 ### Optional input data (e.g., as controls)
 
@@ -68,7 +69,11 @@ WOCAT Questionnaire on SLM Technologies: https://wocat.net/documents/447/QT_Engl
 - Compiler (1.2): Control for bias
 - Date of implementation (2.6): Recent (<10 years), 10-50 years, traditional (50+ years)
 
-### Output data
+### Main output data?
+
+- Biomass/above-ground C** (6.1)
+
+### Optional output data?
 
 - Biodiversity variables (5.5): Species diversity (5.5), Habitat diversity (5.5)
 - Biodiversity variables (6.1): Vegetation cover, **biomass/above-ground C**, plant diversity, invasive alien species, animal diversity, beneficial species (predators, earthworms, pollinators), harmful species (e.g., mosquitos), habitat diversity, pest/diseases
@@ -82,6 +87,7 @@ WOCAT Questionnaire on SLM Technologies: https://wocat.net/documents/447/QT_Engl
 ## Open questions
 
 - WOCAT is primarily interested in biomass/above-ground C. Should we start with this variable as our output variable, and then conduct a more extensive analysis on biodiversity if necessary/of interest? If using additional biodiversity variables, start with dimensionality reduction?
+- Should we drop any SLM Technologies for which the data coverage is very sparse? / Concentrate on the most popular SLM Technologies (or only one Technology group, to start)?
 - Are SLM Technology and measures highly correlated? If so, can we use just SLM Technology?
 - Should we use random forest analysis and/or neural networks?
 - Can we use the neural network for anything besides predicting the right class?
