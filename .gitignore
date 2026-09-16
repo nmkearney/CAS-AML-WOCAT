@@ -30,3 +30,6 @@ Thumbs.db
 *.csv.gz
 *.gz
 *.png
+# Derived photo cache built by photographs_as_evidence.ipynb
+/cache
+*.npy
