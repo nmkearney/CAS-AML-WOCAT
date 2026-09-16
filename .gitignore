@@ -33,3 +33,6 @@ Thumbs.db
 # Derived photo cache built by photographs_as_evidence.ipynb
 /cache
 *.npy
+
+# Questionnaire fields extracted in water_and_costs/ - small, tracked on purpose
+!water_and_costs/*.csv
