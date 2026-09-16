@@ -39,3 +39,8 @@ Thumbs.db
 
 # Personal notes
 /todo.md
+# API token - never commit this
+.env
+
+# Corpus fetched by wocat_api/fetch.py (50 MB of JSON, 79 MB of thumbnails)
+/data
