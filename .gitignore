@@ -36,3 +36,6 @@ Thumbs.db
 
 # Questionnaire fields extracted in water_and_costs/ - small, tracked on purpose
 !water_and_costs/*.csv
+
+# Personal notes
+/todo.md
